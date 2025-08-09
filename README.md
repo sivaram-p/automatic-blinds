@@ -24,13 +24,3 @@ If an object/person is detected within a **7 cm range** of the ultrasonic sensor
 | Resistor (e.g., 10kΩ) | 1 | For LDR voltage divider |
 | Jumper Wires | - | For connections |
 | Breadboard / PCB | 1 | Circuit assembly |
-
----
-
-## ⚙ Circuit Diagram
-*(Insert your circuit image here)*  
-![Circuit Diagram](docs/circuit.png)
-
----
-
-## 📂 Project Structure
