@@ -37,5 +37,6 @@ If an object/person is detected within a **7 cm range** of the ultrasonic sensor
 </p>
 
 ### Video
-click thumbnail to start
-[![Watch the Video](images/images2.jpg)](images/video.mp4)
+<video src="images/video.mp4" controls width="600">
+  Your browser does not support the video tag.
+</video>
