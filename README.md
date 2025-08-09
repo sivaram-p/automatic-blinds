@@ -38,4 +38,4 @@ If an object/person is detected within a **7 cm range** of the ultrasonic sensor
 
 ### Video
 click thumbnail to start
-[![Watch the Video](images/images2.jpg)](images/Untitled (1).mp4)
+[![Watch the Video](images/images2.jpg)](images/video.mp4)
