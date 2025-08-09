@@ -1,19 +1,16 @@
-# automatic-blinds
-created a automatic blind if person is detected in room
-# Automated Blinds for Halls (Arduino Project)
+# Automated Blinds with Light and Presence Detection (Arduino)
 
-An Arduino-powered system to automatically control window blinds in large halls based on **light intensity**, **time schedule**, and **people presence detection**.  
-Perfect for auditoriums, classrooms, and conference halls to improve **energy efficiency** and **comfort**.
+This project uses an **Arduino**, an **LDR sensor**, and an **ultrasonic sensor** to automatically control blinds.  
+If an object/person is detected within a **7 cm range** of the ultrasonic sensor, the system checks the light level and opens or closes the blinds accordingly.
 
 ---
 
 ## 📌 Features
-- **Automatic Light Sensing** – Adjusts blinds based on ambient light using an LDR sensor.
-- **People Detection** – Uses an ultrasonic sensor to detect human presence and activate blinds only when needed.
-- **Scheduled Operation** – Opens/closes blinds at specific times of the day.
-- **Manual Override** – Control blinds via push buttons or remote.
-- **Low Power Consumption** – Energy-efficient design.
-- **Customizable Settings** – Thresholds and timings can be adjusted in code.
+- **People/Object Detection** – Ultrasonic sensor detects objects within a short range (7 cm by default).
+- **Automatic Light Control** – LDR sensor measures ambient light to decide blind position.
+- **Servo Motor Control** – Opens or closes blinds smoothly.
+- **Serial Monitor Feedback** – Shows live distance and light readings.
+- **Energy Efficient** – Operates only when presence is detected.
 
 ---
 
@@ -22,11 +19,9 @@ Perfect for auditoriums, classrooms, and conference halls to improve **energy ef
 |-----------|----------|-------------|
 | Arduino Uno / Nano | 1 | Main controller |
 | LDR Sensor | 1 | Detects light intensity |
-| Ultrasonic Sensor (HC-SR04) | 1 | Detects people presence |
-| Servo Motor / Stepper Motor | 1 | Controls blinds |
-| Motor Driver (if stepper used) | 1 | Drives the motor |
-| Push Buttons | 2 | Manual up/down control |
-| Resistors | 2 | For LDR and buttons |
+| Ultrasonic Sensor (HC-SR04) | 1 | Detects presence within 7 cm |
+| Servo Motor | 1 | Controls blinds |
+| Resistor (e.g., 10kΩ) | 1 | For LDR voltage divider |
 | Jumper Wires | - | For connections |
 | Breadboard / PCB | 1 | Circuit assembly |
 
